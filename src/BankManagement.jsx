@@ -244,7 +244,7 @@ const Login = ({ onLogin }) => {
       <div style={{ background: "#fff", borderRadius: 20, padding: "2.5rem", width: 380, boxShadow: "0 25px 50px rgba(0,0,0,0.4)" }}>
         <div style={{ textAlign: "center", marginBottom: "1.75rem" }}>
           <div style={{ width: 60, height: 60, background: "#1e40af", borderRadius: 14, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px", fontSize: 28 }}>🏦</div>
-          <h1 style={{ fontSize: 24, fontWeight: 800, color: "#0f172a", margin: "0 0 4px" }}>BankSystem</h1>
+          <h1 style={{ fontSize: 24, fontWeight: 800, color: "#0f172a", margin: "0 0 4px" }}>BankManagment</h1>
           <p style={{ color: "#64748b", fontSize: 13, margin: 0 }}>Sistema de Gestión Bancaria</p>
         </div>
         {error && <Alert message={error} type="error" onClose={() => setError("")} />}
@@ -274,7 +274,7 @@ const Navbar = ({ user, onLogout }) => {
     <nav style={{ background: "#fff", borderBottom: "1px solid #e2e8f0", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 60, position: "sticky", top: 0, zIndex: 100 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
         <span style={{ fontSize: 22 }}>🏦</span>
-        <span style={{ fontWeight: 800, fontSize: 18, color: "#0f172a" }}>BankSystem</span>
+        <span style={{ fontWeight: 800, fontSize: 18, color: "#0f172a" }}>BankManagment</span>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
         <div style={{ textAlign: "right" }}>
